@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Means",
+      "setup": "mvn compile",
+      "run": "mvn test -Dtest=ArrayingAbout2DTest#mean_variousArrays_allValid_returnsMean",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 13
+    },
+    {
+      "name": "Sums",
+      "setup": "mvn compile",
+      "run": "mvn test -Dtest=ArrayingAbout2DTest#sums_variousArrays_allValid_returnsSums",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 13
+    },
+    {
+      "name": "Variances",
+      "setup": "mvn compile",
+      "run": "mvn test -Dtest=ArrayingAbout2DTest#variance_variousArrays_allValid_returnsVariance",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 13
+    },
+    {
+      "name": "Standard Devs",
+      "setup": "mvn compile",
+      "run": "mvn test -Dtest=ArrayingAbout2DTest#standardDev_variousArrays_allValid_returnsStandardDev",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 13
+    }
+  ]
+}
